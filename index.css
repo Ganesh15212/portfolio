@@ -30,7 +30,7 @@
     }
   }
   .bg-image{
-    background-image: url("../Portfolio/images/top-view-office-desk-with-workspace-office_34936-1173.avif");
+    background-image: url("./images/top-view-office-desk-with-workspace-office_34936-1173.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -96,7 +96,7 @@
 .about-section{
   
  padding: 70px 0;
- background-image: url('../Portfolio/images/istockphoto-962595708-170667a.webp');
+ background-image: url('./images/istockphoto-962595708-170667a.webp');
  background-repeat: no-repeat;
 background-size: cover;
  background-position: center;
@@ -125,7 +125,7 @@ background-size: cover;
 
  padding: 140px 0;
 background-color: aqua;
-background-image: url('../Portfolio/images/abstract-blurred-multi-colored-background-generative-ai_169016-30200.avif');
+background-image: url('./images/abstract-blurred-multi-colored-background-generative-ai_169016-30200.avif');
 background-repeat: no-repeat;
 background-size: cover;
 opacity: 0.9;
@@ -146,7 +146,7 @@ opacity: 0.9;
 
 .reset{
   padding: 60px 0px;
-  background-image: url('../Portfolio/images/pngtree-bokeh-light-white-blur-background-image_766868.jpg');
+  background-image: url('./images/pngtree-bokeh-light-white-blur-background-image_766868.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -182,7 +182,7 @@ ul.a{
 .result{
   padding: 80px 0px;
  
-  background-image: url('../Portfolio/images/pexels-photo-255379.jpeg');
+  background-image: url('./images/pexels-photo-255379.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -251,7 +251,7 @@ ul.a{
 **************************Contact**************************************** */
 .const{
   padding: 100px 0px;
-  background-image: url('../Portfolio/images/images\ \(1\).jpg');
+  background-image: url('./images/images\ \(1\).jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
