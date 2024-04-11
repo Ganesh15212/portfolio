@@ -1,0 +1,313 @@
+.nav-link{
+    font-weight: 500;
+    color: white;
+}
+.navbar-brand {
+    font-size: 30px;
+    /* animation: colorChange 2s infinite alternate;  */
+    text-shadow: 2px 4px  crimson;
+  }
+  
+  @keyframes colorChange {
+    0% { color: #ffffff; } /* Initial color */
+    50% { color: #00ff4c; } /* Color midway through the animation */
+    100% { color: #ffffff; } /* Final color */
+  }
+  .animated-text{
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeInUp 2s ease forwards;
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .bg-image{
+    background-image: url("../Portfolio/images/top-view-office-desk-with-workspace-office_34936-1173.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+   
+   
+  }
+  .get{
+    color:crimson;
+    text-shadow: 2px 2px black;
+  }
+  .data{
+    color: black;
+    text-shadow: 2px 2px aqua;
+  }
+  
+  .text {
+   display: flex;
+   align-items: center;
+  
+   justify-content: center;
+   justify-content: flex-start;
+  
+   height: 100%;
+    color:green;
+    font-size: 24px;  
+    
+   
+}
+  .typed-text {
+    overflow: hidden; /* Ensures text overflow is hidden */
+    white-space: nowrap; /* Prevents wrapping of text */
+    animation: typing 3s steps(40) infinite; /* Adjust duration and steps as needed */
+    color: orangered;
+    font-weight: bold;
+    
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0; /* Initial width of 0 */
+    }
+    to {
+      width: 100%; /* Full width of the text */
+    }
+  }
+  .linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50%;
+  
+  }
+  .github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50%;
+  
+  }
+ 
+/*  
+*********************About******************************* */
+.about-section{
+  
+ padding: 70px 0;
+ background-image: url('../Portfolio/images/istockphoto-962595708-170667a.webp');
+ background-repeat: no-repeat;
+background-size: cover;
+ background-position: center;
+}
+.imgset{
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  box-shadow:  
+  0 0 50px crimson,
+
+  
+  0 0 160px red;
+  transition: transform 0.3s ease;
+}
+
+.imgset:hover {
+  transform: scale(1.2); /* Scale up the image on hover */
+}
+
+
+/* 
+****************************Skill*************************** */
+
+.skillset{
+
+ padding: 140px 0;
+background-color: aqua;
+background-image: url('../Portfolio/images/abstract-blurred-multi-colored-background-generative-ai_169016-30200.avif');
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.9;
+}
+.set{
+  justify-content: center;
+  display:flex;
+  
+  align-items: center;
+}
+.progress{
+  height: 30px;
+  border-radius: 15px;
+  
+}
+/* 
+**********************************Resume****************************** */
+
+.reset{
+  padding: 60px 0px;
+  background-image: url('../Portfolio/images/pngtree-bokeh-light-white-blur-background-image_766868.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.reset1{
+  justify-content: center;
+  display: flex;
+}
+.gate{
+  width: 110px;
+  height: 40px;
+  padding: 5px;
+ background-color: hsl(140, 3%, 37%);
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  color: aqua;
+}
+.gate1{
+  margin-left: 180px;
+  font-weight: bold;
+}
+.comp{
+  font-weight: bold;
+}
+ul.a{
+  list-style-position: outside;
+  
+}
+
+/* *********************Project**************************** */
+
+.result{
+  padding: 80px 0px;
+ 
+  background-image: url('../Portfolio/images/pexels-photo-255379.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.pro{
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card .card-overlay {
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; 
+}
+
+.card:hover .card-overlay {
+  opacity: 1; /* Fade in the overlay on hover */
+  
+}
+.icon3{
+  position: relative;
+  top: 32px;
+  right: 50px;
+  
+}
+.icon1{
+  position: relative;
+  top: 40px;
+  right: 80px;
+  
+ 
+}
+.icon2{
+  position: relative;
+  top: 32px;
+  right: 70px;
+}
+.clickable-icon {
+  cursor: pointer;
+ 
+}
+.clickable-icon:hover{
+  color:orange;
+}
+.res{
+  height: 250px;
+  width: 100%;
+ 
+ }
+
+/* 
+**************************Contact**************************************** */
+.const{
+  padding: 100px 0px;
+  background-image: url('../Portfolio/images/images\ \(1\).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.len{
+  display: flex;
+  justify-content: center;
+}
+
+/* ********************Footer********************* */
+
+.footer{
+  padding: 32px 0px;
+  background-color:black;
+  color:white;
+  text-align: center;
+}
+
+/* ******************go to top button******************** */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color:orangered;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+#myBtn:hover {
+  background-color: #3e94da;
+}
+
+
+
+.active{
+color:orangered !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
