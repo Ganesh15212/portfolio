@@ -11,9 +11,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-  
+
     <link rel="stylesheet" href="index.css">
-   
+
 </head>
 </head>
 
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link animated-text active" onclick="isActive('home')" href="#home">Home</a>  
+                        <a class="nav-link animated-text active" onclick="isActive('home')" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link animated-text" href="#about" onclick="isActive('about')">About</a>
@@ -46,9 +46,9 @@
                         <a class="nav-link animated-text" href="#contact" onclick="isActive('contact')">Contact</a>
                     </li>
                 </ul>
-              
+
             </div>
-           
+
         </div>
     </nav>
 
@@ -59,20 +59,28 @@
                 <h2 class="animated-text get">Hi, <span class="data fw-bold animated-text">I Am</span></h2>
                 <br>
                 <h1 class="data fw-bold animated-text">Ganesh Karale</h1>
-                <h3 class="fw-bold mb-3 text-primary">
+                <!-- <h3 class="fw-bold mb-3 text-primary">
                     <span>
                         <h2 class="typed-text">React Developer</h2>
 
                     </span>
+                   
 
 
+                </h3> -->
+                <h3 class="fw-bold mb-3 text-primary1">
+                    <span>
+                        <h2 class="typed-text" id="typed-text"></h2>
+                    </span>
+                    <span class="cursor"></span>
                 </h3>
+
                 <a href="https://www.linkedin.com/in/ganesh-karale-4036a622b/" target="_blank" class="linkedin-button">
                     <i class="fa-brands fa-linkedin fa-xl" style="color: #0760ed;"></i>
-                  </a>
-                  <a href="https://github.com/Ganesh15212" target="_blank" class="github-button">
+                </a>
+                <a href="https://github.com/Ganesh15212" target="_blank" class="github-button">
                     <i class="fa-brands fa-github fa-xl" style="color: black;"></i>
-                  </a>
+                </a>
             </div>
         </div>
     </div>
@@ -117,7 +125,7 @@
             <div class="row">
                 <h1 class="set">My Skill</h1>
                 <div class="col-md-6 ">
-                    <p class="fw-bold">HTML</p>
+                    <p class="fw-bold">HTML5</p>
                     <div class="progress">
 
                         <div class="progress-bar progress-bar-success" style="width:90%">
@@ -127,7 +135,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <p class="fw-bold">CSS</p>
+                    <p class="fw-bold">CSS3</p>
                     <div class="progress">
                         <div class="progress-bar progress-bar-success" style="width:90%">
                             90%
@@ -136,7 +144,7 @@
                 </div>
 
                 <div class="col-md-6 mt-3">
-                    <p class="fw-bold">Bootstrap</p>
+                    <p class="fw-bold">Bootstrap5</p>
                     <div class="progress">
                         <div class="progress-bar progress-bar-success" style="width:85%">
                             85%
@@ -162,6 +170,33 @@
                     </div>
                 </div>
 
+                <div class="col-md-6 mt-3">
+                    <p class="fw-bold">Node Js</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" style="width:80%">
+                            70%
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-3">
+                    <p class="fw-bold">Express.Js</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" style="width:80%">
+                            90%
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-3">
+                    <p class="fw-bold">MongoDB</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" style="width:80%">
+                            80%
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -178,8 +213,8 @@
                             <h5>Bachelor Of Computer Engineering</h5>
                             <p class="comp">PDEA's College Of Engineering Manjari,Pune</p>
                             <p class=""><span class="gate">2019-2023</span> <span class="gate1 ">76.10%</span></p>
-                          
-                            
+
+
                         </div><br>
                         <div>
 
@@ -199,7 +234,8 @@
                 <div class="col-md-6 mt-5">
                     <h2 class="ms-3">Experience</h2>
                     <h5 class="ms-3">React Developer Specialize Trainee</h5>
-                    <p class="ms-3 fw-bold">Rego Digital Solution | Oct 2023- Present</p>
+                    <p class="ms-3 fw-bold">Rego Digital Solution | Sep 2023 - Jan 2024
+                    </p>
                     <ul class="a">
                         <li>Designing and implementing visually appealing and intuitive
                             user interfaces for websites and web applications.</li>
@@ -226,24 +262,26 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <div class="card-overlay">
-                            <h6><b>Yummy Restaruant</b></h6>
-                          
-                            <p class=""><i class="fa-solid fa-arrow-up-right-from-square  icon1 clickable-icon fa-xl" onclick="showProject('Yummy Restaurant')"></i></p> <!-- Project Icon -->
+                            <h6><b>Bookstore Website</b></h6>
+
+                            <p class=""><i class="fa-solid fa-arrow-up-right-from-square  icon1 clickable-icon fa-xl"
+                                    onclick="showProject('Bookstore Website')"></i></p> <!-- Project Icon -->
                         </div>
-                        <img src="./images/360_F_238105207_2jrGVrP5mtzB0LFYJJoZIrI09xy7wHDp.jpg"
-                            alt="Card Image" class="res card-img">
-                           
+                        <img src="./images/360_F_238105207_2jrGVrP5mtzB0LFYJJoZIrI09xy7wHDp.jpg" alt="Card Image"
+                            class="res card-img">
+
 
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
-                        
+
                         <div class="card-overlay">
-                           
-                            <h6><b>Finbuzz Website</b></h6>
-                            <i class="fa-solid fa-arrow-up-right-from-square icon2 clickable-icon fa-xl" onclick="showProject('Finbuzz Project')"></i> <!-- Project Icon -->
+
+                            <h6><b>SpeedUp InfoTech</b></h6>
+                            <i class="fa-solid fa-arrow-up-right-from-square icon2 clickable-icon fa-xl"
+                                onclick="showProject('SpeedUp InfoTech')"></i> <!-- Project Icon -->
                         </div>
                         <img src="./images/desktop-wallpaper-consultancy-bold-business-development-thumbnail.jpg"
                             alt="Card Image" class="res card-img">
@@ -255,7 +293,8 @@
                     <div class="card">
                         <div class="card-overlay">
                             <h6><b>All Project</b></h6>
-                            <i class="fa-solid fa-arrow-up-right-from-square  icon3 clickable-icon fa-xl"  onclick="showProject('All Project')"></i> <!-- Project Icon -->
+                            <i class="fa-solid fa-arrow-up-right-from-square  icon3 clickable-icon fa-xl"
+                                onclick="showProject('All Project')"></i> <!-- Project Icon -->
                         </div>
                         <img src="./images/images.jpg" alt="Card Image" class="res card-img">
 
@@ -289,14 +328,15 @@
     <div class="footer">
         <div class="container">
             <h6>Copyright Ⓒ 2024 by Ganesh Karale | All Right Reserved.</h6>
-            
+
 
         </div>
     </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up" style="color: black;"></i></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"
+            style="color: black;"></i></button>
 
-    
-      
+
+
 
 
 

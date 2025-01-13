@@ -19,15 +19,15 @@
 
 
 function showProject(projectName) {
-    if (projectName === 'Yummy Restaurant') {
+    if (projectName === 'Bookstore Website') {
        
-        window.open('https://github.com/Ganesh15212/Yummy_Restaruant_Project', '_blank');
+        window.open('https://github.com/Ganesh15212/Bookstore_App', '_blank');
     }
    
-    else if(projectName === 'Finbuzz Project')
+    else if(projectName === 'SpeedUp InfoTech')
     {
         
-        window.open('https://github.com/Ganesh15212/Finbuzz_Website_Project', '_blank');
+        window.open('https://github.com/Ganesh15212/SpeedUp_InfoTech_Website.', '_blank');
     }
     else if(projectName === 'All Project')
     {
@@ -50,6 +50,43 @@ function showProject(projectName) {
         })
        
     }
+
+
+
+
+    const texts = ["React Developer", "MERN Stack Developer"];
+    let currentTextIndex = 0;
+    let currentCharIndex = 0;
+
+    const typedTextElement = document.getElementById("typed-text");
+
+    function type() {
+      if (currentCharIndex < texts[currentTextIndex].length) {
+        // Add one character to the display
+        typedTextElement.textContent += texts[currentTextIndex][currentCharIndex];
+        currentCharIndex++;
+        setTimeout(type, 100); // Adjust typing speed
+      } else {
+        // Pause before deleting
+        setTimeout(erase, 1000);
+      }
+    }
+
+    function erase() {
+      if (currentCharIndex > 0) {
+        // Remove one character from the display
+        typedTextElement.textContent = texts[currentTextIndex].slice(0, currentCharIndex - 1);
+        currentCharIndex--;
+        setTimeout(erase, 50); // Adjust deleting speed
+      } else {
+        // Move to the next text
+        currentTextIndex = (currentTextIndex + 1) % texts.length;
+        setTimeout(type, 500); // Pause before typing next word
+      }
+    }
+
+    // Start the typing effect
+    type();
 
 
 

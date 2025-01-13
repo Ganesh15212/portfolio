@@ -61,21 +61,29 @@
     
    
 }
-  .typed-text {
-    overflow: hidden; /* Ensures text overflow is hidden */
-    white-space: nowrap; /* Prevents wrapping of text */
-    animation: typing 3s steps(40) infinite; /* Adjust duration and steps as needed */
-    color: orangered;
-    font-weight: bold;
-    
-  }
+ 
   
-  @keyframes typing {
-    from {
-      width: 0; /* Initial width of 0 */
-    }
-    to {
-      width: 100%; /* Full width of the text */
+  .fw-bold {
+    font-weight: bold;
+  }
+  .text-primary1 {
+    color: orangered; /* Bootstrap primary color */
+  }
+  .typed-text {
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background-color: black;
+    animation: blink 0.7s steps(2, start) infinite;
+  }
+  @keyframes blink {
+    50% {
+      opacity: 0;
     }
   }
   .linkedin-button {
